@@ -8,4 +8,4 @@ check:
 
 .PHONY: fix
 fix:
-	python -m ruff . && python -m black . && python -m isort .
+	python -m black . && python -m isort .
